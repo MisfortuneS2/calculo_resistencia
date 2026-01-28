@@ -1,3 +1,5 @@
+//a função principal foi substituida por uma arrow function ()=>
+
 //L= comprimento [m]
 //A = área de seção transversal [mm²]
 //mat = material => resistividade do material =>
