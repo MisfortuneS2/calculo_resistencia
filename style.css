@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body{
+    text-align: center;
+    color: #ffffff;
+    background-color: #8f5eaf;
+    font-size: 1.4rem;
+    font-family: "Nunito", sans-serif;
+}
+
+input, button, select{
+    border-radius: 8px;
+    color: #ffffff;
+    background-color: #67457e;
+    padding: 4px 4px;
+}

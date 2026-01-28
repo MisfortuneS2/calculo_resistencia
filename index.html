@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="shortcut icon" href="/img/pngtree-vector-calculadora.png" type="image/x-icon">
+    <script src="./calculo_resistencia.js"defer></script>
+    <title>Cálculo de resistência</title>
+</head>
+<body>
+    <header>
+        <h1>Programa para calcular a resistência de um fio condutor</h1>
+    </header>
+    <main>
+        <hr>
+        <label for="comprimento">Digite o comprimento do condutor:</label><br>
+        <input type="text" id="comprimento" placeholder="Valor em metros"><br><br>
+
+        <label for="area">Digite a área do condutor:</label><br>
+        <input type="text" id="area" placeholder="Valor em mm²"><br><br>
+        
+        <label for="material">Selecione o material do condutor</label><br>
+        <select name="" id="material">
+            <option value="cobre">Material cobre</option>
+            <option value="aluminio">Material alumínio</option>
+        </select><br><br>
+
+        <div id="resposta"></div>
+        <button id="calcular">Calcular</button>
+        <hr>
+    </main>
+    <footer>By Ana Luiza Martins &copy; &trade;</footer>
+</body>
+</html>
